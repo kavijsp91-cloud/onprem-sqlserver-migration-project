@@ -1,0 +1,15 @@
+{
+	"name": "adf-sqlserver-to-cloud",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6dfe815c-5674-4716-b433-e41fca6b8dc0",
+		"tenantId": "527a1ec2-a1b8-4fba-9744-c45fc91b3af2"
+	}
+}
