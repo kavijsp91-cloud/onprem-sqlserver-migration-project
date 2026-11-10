@@ -1,0 +1,16 @@
+# Secrets / local config - never commit
+*.pfx
+*.key
+*.env
+local.settings.json
+secrets*.json
+*.bak
+*.mdf
+*.ldf
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# ARM export scratch
+*.zip
